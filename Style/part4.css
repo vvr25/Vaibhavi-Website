@@ -1,0 +1,150 @@
+html {
+	background-color: white;
+	font-family:europa
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    	font-size: 100%;
+    	margin: 0 auto;
+    	background-color: white;
+	height:100%
+	position: relative;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;	
+	text-align: center;
+	font-family: inherit;
+	background-color: #23a09d;
+}
+header h2 {
+	font-size: 300%;
+	font-family: fantasy
+	color: #16154d
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: center;
+	padding: 0 3.75%;
+}
+
+main {
+	clear: right;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    	text-align: center;
+    	background-color: #d5bfbf;
+    	width: 101%;
+}
+
+.card:hover {
+  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}	
+
+.container {
+  	padding: 2px 16px;
+}
+.container-fluid{
+	padding-right:0;
+	padding-left:0;
+	width: 100%
+	margin-Left: auto;
+}
+.column {
+  	float: left;
+  	width: 25%;
+  	padding: 0 10px;
+	Width: 249.8px;
+}
+.row {margin: 0 -5px;}
+
+.row:after {
+  	content: "";
+ 	display: table;
+	clear: both;
+	width: fit-content
+}
+
+section {font-family
+	float: left;
+	padding: 0 2.5% 20px 2.5%;
+}
+section h1 {
+	font-size: 300%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+}
+section h2 {
+	color: #342D7E;
+	font-size: 200%;
+	padding: .5em 0 .25em 0;
+	font-family: monospace
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+.text-muted {
+    color: #ffffff!important;
+}
+
+/* tablet portrait to standard 960 */
+@media only screen and (max-width: 959px) {
+	section h1 { font-size: 135%; }
+	section h2, aside h2 { font-size: 120%; }
+}
+
+@media only screen and (max-width: 767px) {
+	header img { float: none; }
+	header { text-align: center; }
+	section {
+		float: none;
+		width: 95%;                   
+	}
+	                  
+	article img { max-width: 30%; }
+	
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #4863A0 !important;
+	}
+}
+
+/* mobile portrait to mobile landscape */
+@media only screen and (max-width: 479px) {
+	body { font-size: 90%; }
+}
