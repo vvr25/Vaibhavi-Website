@@ -16,15 +16,15 @@ a:focus, a:hover {
 
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;	
+	border-bottom: 3px solid #9314205e;	
 	text-align: center;
 	font-family: inherit;
-	background-color: #23a09d;
+	background-color: #986e6ebf;
 }
 header h2 {
 	font-size: 300%;
-	font-family: fantasy
-	color: #16154d
+	font-family: fantasy;
+	color: #5a2525;
 }
 header h3 {
 	font-size: 130%;
@@ -102,7 +102,12 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
-
+textarea {
+	overflow: auto;
+	resize: vertical;
+	width: 70%;
+	height: 50px;
+}
 
 .footer {
   position: fixed;
